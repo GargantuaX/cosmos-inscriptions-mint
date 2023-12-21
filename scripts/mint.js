@@ -68,6 +68,7 @@ const processAccount = async (
       mintCount = MAX_MINT_COUNT
     }
   }
+
   for (let i = 0; i < mintCount; i++) {
     try {
       await sendTx(
